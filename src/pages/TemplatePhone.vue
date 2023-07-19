@@ -1,14 +1,14 @@
 <template>
   <div class="flex items-center justify-center min-h-screen">
-    <div class="w-[360px] h-[800px] bg-gray-400">
-      <div class="h-[calc(800px-92px)] bg-white overflow-y-auto scrollbar-hide">
+    <div class="w-[360px] h-[800px] shadow-2xl">
+      <div class="h-[calc(800px-92px)] bg-white overflow-y-auto scrollbar-hide rounded-t-2xl">
         <div class="h-full">
           <router-view></router-view>
         </div>
       </div>
       
       <!-- navbar -->
-      <div class="bg-white h-[92px]" style="box-shadow: 0 -3px 11px -7px #000000;">
+      <div class="bg-white h-[92px] rounded-b-2xl" style="box-shadow: 0 -3px 11px -7px #000000;">
         <div class="flex justify-around">
           <router-link to="/homepage">
             <div class="pt-[20px] pb-[13px]">
