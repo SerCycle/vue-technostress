@@ -10,8 +10,8 @@
                 <p class="text-[22px] font-bold leading-7">Welcome, <br/>Alif Yanuar</p>
             </div>
         </div>
-        <div>
-            test
+        <div class="pt-[10px]">
+            <img class="aspect-square w-[37px] h-[37px]" src="../../components/icons/group-chat.png" alt="">
         </div>
     </div>
 
@@ -80,11 +80,13 @@
         <div class="ps-[20px] pt-[14px]">
             <div class="w-[320px] h-[53px] bg-[#10593C] rounded-[14px]">
                 <div class="flex justify-between items-center">
-                    <div class="w-[268px] h-[36px] ps-[14px] pt-[8px]">
+                    <div class="w-[268px] h-[36px] ps-[14px]">
                         <p class="text-white text-[15px] leading-[18px]">Masih bingung dengan cara penggunaan? Yuk cari tahu di FAQ</p>
                     </div>
-                    <div class="pe-[15px]">
-                        <p class="text-white text-[60px] font-[100] leading-[0px]">&gt</p>
+                    <div class="pe-[15px] h-[53px] flex items-center">
+                        <svg class="h-[22px] w-[13px] fill-[#ffffff]" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512">
+                            <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/>
+                        </svg>
                     </div>
                 </div>
             </div>
@@ -94,8 +96,8 @@
     <div class="ps-[20px] pt-[19px] flex justify-around w-[320px]">
         <div class="">
             <div class="flex justify-center">
-                <div class="h-[48px] w-[48px] bg-slate-400">
-                    img
+                <div class="h-[48px] w-[48px]">
+                    <img class="aspect-square w-[48px] h-[48px]" src="../../components/icons/money.png" alt="">
                 </div>
             </div>
             <div class="pt-[4px] flex justify-center">
@@ -104,8 +106,8 @@
         </div>
         <div>
             <div class="flex justify-center">
-                <div class="h-[48px] w-[48px] bg-slate-400">
-                    img
+                <div class="h-[48px] w-[48px]">
+                    <img class="aspect-square w-[48px] h-[48px]" src="../../components/icons/petition.png" alt="">
                 </div>
             </div>
             <div class="pt-[4px] flex justify-center">
