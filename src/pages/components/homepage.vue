@@ -68,7 +68,7 @@
                 </div>
                 <div class="pe-[16px] pt-[10px]">
                     <div class="bg-white w-[98px] h-[38px] flex justify-center items-center rounded-[100px]">
-                        <p class="text-[#13593D] text-[22px] leading-[24px]">Bayar</p>
+                        <p class="text-[#13593D] text-[16px] leading-[24px]">Bayar</p>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                             <p class="text-[#C6C6C6] text-[14px] leading-[20px]">Jumlah Pinjaman</p>
                         </div>
                         <div>
-                            <p class="text-[14px] leading-[20px] font-bold">Rp. 2,300,000</p>
+                            <p class="text-[14px] leading-[20px] font-bold text-[#424242]">Rp. 2,300,000</p>
                         </div>
                     </div>
                     <div class="pe-[22px]">
@@ -145,7 +145,7 @@
                             <p class="text-[#C6C6C6] text-[14px] leading-[20px]">Tanggal Pengajuan</p>
                         </div>
                         <div>
-                            <p class="text-[14px] leading-[20px] font-bold">07/03/2023</p>
+                            <p class="text-[14px] leading-[20px] font-bold text-[#424242]">07/03/2023</p>
                         </div>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
                             <p class="text-[#C6C6C6] text-[14px] leading-[20px]">Jumlah Pinjaman</p>
                         </div>
                         <div>
-                            <p class="text-[14px] leading-[20px] font-bold">Rp. 2,300,000</p>
+                            <p class="text-[14px] leading-[20px] font-bold text-[#424242]">Rp. 2,300,000</p>
                         </div>
                     </div>
                     <div class="pe-[22px]">
@@ -175,7 +175,7 @@
                             <p class="text-[#C6C6C6] text-[14px] leading-[20px]">Tanggal Pengajuan</p>
                         </div>
                         <div>
-                            <p class="text-[14px] leading-[20px] font-bold">04/03/2023</p>
+                            <p class="text-[14px] leading-[20px] font-bold text-[#424242]">04/03/2023</p>
                         </div>
                     </div>
                 </div>
@@ -197,7 +197,7 @@
                             <p class="text-[#C6C6C6] text-[14px] leading-[20px]">Jumlah Pinjaman</p>
                         </div>
                         <div>
-                            <p class="text-[14px] leading-[20px] font-bold">Rp. 2,300,000</p>
+                            <p class="text-[14px] leading-[20px] font-bold text-[#424242]">Rp. 2,300,000</p>
                         </div>
                     </div>
                     <div class="pe-[22px]">
@@ -205,7 +205,7 @@
                             <p class="text-[#C6C6C6] text-[14px] leading-[20px]">Tanggal Pengajuan</p>
                         </div>
                         <div>
-                            <p class="text-[14px] leading-[20px] font-bold">01/03/2023</p>
+                            <p class="text-[14px] leading-[20px] font-bold text-[#424242]">01/03/2023</p>
                         </div>
                     </div>
                 </div>
