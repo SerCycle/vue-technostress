@@ -76,7 +76,7 @@
     </div>
 
     <!-- Go To FaQ -->
-    <router-link to="/faqpage">
+    <router-link to="/faq">
         <div class="ps-[20px] pt-[14px]">
             <div class="w-[320px] h-[53px] bg-[#10593C] rounded-[14px]">
                 <div class="flex justify-between items-center">
