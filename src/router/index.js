@@ -19,6 +19,14 @@ import FaQSimulasi1 from '../pages/components/faq/melakukansimulasi/faqsimulasi1
 import FaQSimulasi2 from '../pages/components/faq/melakukansimulasi/faqsimulasi2.vue';
 import FaQSimulasi3 from '../pages/components/faq/melakukansimulasi/faqsimulasi3.vue';
 import FaQPembayaran from '../pages/components/faq/melakukanpembayaran/faqpembayarantemplate.vue';
+import FaQPembayaran1 from '../pages/components/faq/melakukanpembayaran/faqpembayaran1.vue';
+import FaQPembayaran2 from '../pages/components/faq/melakukanpembayaran/faqpembayaran2.vue';
+import FaQPembayaran3 from '../pages/components/faq/melakukanpembayaran/faqpembayaran3.vue';
+import FaQPembayaran4 from '../pages/components/faq/melakukanpembayaran/faqpembayaran4.vue';
+import FaQPembayaran5 from '../pages/components/faq/melakukanpembayaran/faqpembayaran5.vue';
+import FaQPembayaran6 from '../pages/components/faq/melakukanpembayaran/faqpembayaran6.vue';
+import FaQPembayaran7 from '../pages/components/faq/melakukanpembayaran/faqpembayaran7.vue';
+import FaQPembayaran8 from '../pages/components/faq/melakukanpembayaran/faqpembayaran8.vue';
 
 const routes = [
     {
@@ -95,7 +103,49 @@ const routes = [
     {
         name: 'FaQPembayaran',
         path: '/faq/pembayaran',
-        component: FaQPembayaran
+        component: FaQPembayaran,
+        children: [
+            {
+                name: 'FaQSPembayaran1',
+                path: '/faq/pembayaran/1',
+                component: FaQPembayaran1
+            },
+            {
+                name: 'FaQSPembayaran2',
+                path: '/faq/pembayaran/2',
+                component: FaQPembayaran2
+            },
+            {
+                name: 'FaQSPembayaran3',
+                path: '/faq/pembayaran/3',
+                component: FaQPembayaran3
+            },
+            {
+                name: 'FaQSPembayaran4',
+                path: '/faq/pembayaran/4',
+                component: FaQPembayaran4
+            },
+            {
+                name: 'FaQSPembayaran5',
+                path: '/faq/pembayaran/5',
+                component: FaQPembayaran5
+            },
+            {
+                name: 'FaQSPembayaran6',
+                path: '/faq/pembayaran/6',
+                component: FaQPembayaran6
+            },
+            {
+                name: 'FaQSPembayaran7',
+                path: '/faq/pembayaran/7',
+                component: FaQPembayaran7
+            },
+            {
+                name: 'FaQSPembayaran8',
+                path: '/faq/pembayaran/8',
+                component: FaQPembayaran8
+            },
+        ],
     }
 ];
 
