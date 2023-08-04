@@ -28,6 +28,11 @@ import FaQPembayaran6 from '../pages/components/faq/melakukanpembayaran/faqpemba
 import FaQPembayaran7 from '../pages/components/faq/melakukanpembayaran/faqpembayaran7.vue';
 import FaQPembayaran8 from '../pages/components/faq/melakukanpembayaran/faqpembayaran8.vue';
 
+// Import Simulation
+import SimulationPage from '../pages/components/simulation/simulpage.vue';
+import SimulationBefore from '../pages/components/simulation/simulbefore.vue';
+import SimulationAfter from '../pages/components/simulation/simulafter.vue';
+
 const routes = [
     {
         name: 'Homepage',
@@ -145,6 +150,23 @@ const routes = [
                 path: '/faq/pembayaran/8',
                 component: FaQPembayaran8
             },
+        ],
+    },
+    {
+        name: 'SimulationPage',
+        path: '/simulation',
+        component: SimulationPage,
+        children: [
+            {
+                name: 'SimulationPageBefore',
+                path: '/simulation/input',
+                component: SimulationBefore
+            },
+            {
+                name: 'SimulationPageAfter',
+                path: '/simulation/output',
+                component: SimulationAfter
+            }
         ],
     }
 ];
