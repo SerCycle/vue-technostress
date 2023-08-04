@@ -93,25 +93,27 @@
         </div>
     </router-link>
 
-    <div class="ps-[20px] pt-[19px] flex justify-around w-[320px]">
-        <div class="">
-            <div class="flex justify-center">
-                <div class="h-[48px] w-[48px]">
-                    <img class="aspect-square w-[48px] h-[48px]" src="../../components/icons/money.png" alt="">
+    <div class="ps-[20px] pt-[19px]">
+        <div class=" flex justify-around w-[320px]">
+            <div class="">
+                <div class="flex justify-center">
+                    <div class="h-[48px] w-[48px]">
+                        <img class="aspect-square w-[48px] h-[48px]" src="../../components/icons/money.png" alt="">
+                    </div>
+                </div>
+                <div class="pt-[4px] flex justify-center">
+                    <p>point</p>
                 </div>
             </div>
-            <div class="pt-[4px] flex justify-center">
-                <p>point</p>
-            </div>
-        </div>
-        <div>
-            <div class="flex justify-center">
-                <div class="h-[48px] w-[48px]">
-                    <img class="aspect-square w-[48px] h-[48px]" src="../../components/icons/petition.png" alt="">
+            <div>
+                <div class="flex justify-center">
+                    <div class="h-[48px] w-[48px]">
+                        <img class="aspect-square w-[48px] h-[48px]" src="../../components/icons/petition.png" alt="">
+                    </div>
                 </div>
-            </div>
-            <div class="pt-[4px] flex justify-center">
-                <p>Simulasi</p>
+                <div class="pt-[4px] flex justify-center">
+                    <p>Simulasi</p>
+                </div>
             </div>
         </div>
     </div>
