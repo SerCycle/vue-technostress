@@ -67,9 +67,11 @@
                     </div>
                 </div>
                 <div class="pe-[16px] pt-[10px]">
-                    <div class="bg-white w-[98px] h-[38px] flex justify-center items-center rounded-[100px]">
-                        <p class="text-[#13593D] text-[16px] leading-[24px]">Bayar</p>
-                    </div>
+                    <router-link to="/payment">
+                        <div class="bg-white w-[98px] h-[38px] flex justify-center items-center rounded-[100px]">
+                            <p class="text-[#13593D] text-[16px] leading-[24px]">Bayar</p>
+                        </div>
+                    </router-link>
                 </div>
             </div>
         </div>
