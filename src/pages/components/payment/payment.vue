@@ -19,7 +19,7 @@
                 </div>
             </div>
 
-            <!-- router view -->
+            <!-- content -->
             <div class="w-full flex justify-center">
                 <div class="pt-[17px]">
                     <div class="bg-white w-[320px] h-[200px] rounded-[14px] shadow-sm">
@@ -28,9 +28,11 @@
                                 <div>
                                     <p class="text-[16px] leading-[24px]">Jumlah yang harus dibayar</p>
                                 </div>
-                                <div>
-                                    <p class="text-[#007A3B] font-[550]">Detail ></p>
-                                </div>
+                                <router-link to="/detailpayment">
+                                    <div>
+                                        <p class="text-[#007A3B] font-[550]">Detail ></p>
+                                    </div>
+                                </router-link>
                             </div>
                             <div class="pt-[8px] pb-[9px]">
                                 <p class="font-bold text-[22px]">Rp. 2,393,800</p>
@@ -120,11 +122,11 @@
             <div class="flex justify-center">
                 <div class="pt-[22px]">
                     <p class="text-[14px]">Masih bingung dengan alur peminjaman?</p>
-                    <div class="flex justify-center">
+                    <router-link to="faq" class="flex justify-center">
                         <div class="flex justify-center items-center mt-[10px] rounded-[100px] bg-[#016F30] w-[60px] h-[30px]">
                             <p class="text-white text-[14px]">FAQ</p>
                         </div>
-                    </div>
+                    </router-link>
                 </div>
             </div>
         </div>
