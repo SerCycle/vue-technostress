@@ -69,11 +69,11 @@
                 <div class="ps-[22px]">
                     <p class="text-[14px] font-medium leading-[20px] text-[#016F30]">Detail Pinjaman</p>
                 </div>
-                <div class="pe-[22px]">
+                <router-link to="/payment" class="pe-[22px]">
                     <div class="bg-[#016F30] w-[89px] h-[38px] flex justify-center items-center rounded-[100px]">
                         <p class="text-white text-[16px] leading-[24px]">Bayar</p>
                     </div>
-                </div>
+                </router-link> 
             </div>
 
         </div>
