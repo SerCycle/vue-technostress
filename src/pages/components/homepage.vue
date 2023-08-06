@@ -105,7 +105,7 @@
                     <p>point</p>
                 </div>
             </div>
-            <div>
+            <router-link to="/simulation/input">
                 <div class="flex justify-center">
                     <div class="h-[48px] w-[48px]">
                         <img class="aspect-square w-[48px] h-[48px]" src="../../components/icons/petition.png" alt="">
@@ -114,7 +114,7 @@
                 <div class="pt-[4px] flex justify-center">
                     <p>Simulasi</p>
                 </div>
-            </div>
+            </router-link>
         </div>
     </div>
 
