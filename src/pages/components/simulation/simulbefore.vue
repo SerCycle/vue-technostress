@@ -1,7 +1,7 @@
 <template>
     <div class="pt-[17px]">
-        <div class="w-[320px]">
-            <p class="text-[12px] leading-[16px] text-center">Fitur ini akan memberikan sebuah gambaran  terbaik mengenai pinjaman yang akan anda ajukan. Gunakanlah sesuai jumlah yang anda inginkan.</p>
+        <div class="w-[340px]">
+            <p class="ms-[20px] text-[12px] leading-[16px] text-center">Fitur ini akan memberikan sebuah gambaran  terbaik mengenai pinjaman yang akan anda ajukan. Gunakanlah sesuai jumlah yang anda inginkan.</p>
         </div>
 
         <form action="">
@@ -33,11 +33,13 @@
                 </div>
             </div>
 
-            <div class="ps-[20px] pt-[238px]">
-                <button class="bg-[#016F30] w-[320px] h-[38px] flex justify-center items-center rounded-[100px]">
-                    <p class="text-white text-[16px] leading-[24px]">Simulasi</p>
-                </button>
-            </div>
+            <router-link to="/simulation/output">
+                <div class="ps-[20px] pt-[238px]">
+                    <button class="bg-[#016F30] w-[320px] h-[38px] flex justify-center items-center rounded-[100px]">
+                        <p class="text-white text-[16px] leading-[24px]">Simulasi</p>
+                    </button>
+                </div>
+            </router-link>
         </form>
     </div>
 </template>
