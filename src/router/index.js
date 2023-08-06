@@ -33,6 +33,9 @@ import SimulationPage from '../pages/components/simulation/simulpage.vue';
 import SimulationBefore from '../pages/components/simulation/simulbefore.vue';
 import SimulationAfter from '../pages/components/simulation/simulafter.vue';
 
+// Import Payment
+import PaymentPage from "../pages/components/payment/payment.vue";
+
 const routes = [
     {
         name: 'Homepage',
@@ -168,6 +171,11 @@ const routes = [
                 component: SimulationAfter
             }
         ],
+    },
+    {
+        name: 'PaymentPage',
+        path: '/payment',
+        component: PaymentPage
     }
 ];
 
