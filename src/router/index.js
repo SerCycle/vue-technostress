@@ -35,6 +35,7 @@ import SimulationAfter from '../pages/components/simulation/simulafter.vue';
 
 // Import Payment
 import PaymentPage from "../pages/components/payment/payment.vue";
+import DetailPayment from '../pages/components/payment/detailpayment.vue';
 
 const routes = [
     {
@@ -176,6 +177,11 @@ const routes = [
         name: 'PaymentPage',
         path: '/payment',
         component: PaymentPage
+    },
+    {
+        name: 'DetailPayment',
+        path: '/detailpayment',
+        component: DetailPayment
     }
 ];
 
